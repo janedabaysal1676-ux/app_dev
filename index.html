@@ -4,6 +4,27 @@
         <!-- <meta charset="UTF-8"> -->
         <title>My HTML</title>
         <link rel="stylesheet" href="https://openlayers.org/en/v4.6.5/css/ol.css" type="text/css">
+        <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  #map {
+    flex: 1;  /* kalan tüm alanı harita kaplar */
+    min-height: 0;
+  }
+  
+  #buttons {
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+</style>
     </head>
     <body>
        <div id="buttons">
